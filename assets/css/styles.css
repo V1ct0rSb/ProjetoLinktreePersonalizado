@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-color: white;
+  --second-color: black;
+  --third-color: rgb(125, 125, 125);
+}
+
+body {
+  background: var(--second-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px 0px 10px 0px;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile h3 {
+  color: var(--first-color);
+  font-size: 20px;
+  padding: 10px 0px 40px 0px;
+}
+
+#profile img {
+  width: 125px;
+  border: 2px solid var(--first-color);
+  border-radius: 100%;
+}
+
+#social-links {
+  text-align: center;
+}
+
+#social-links a ion-icon {
+  background: var(--first-color);
+  color: var(--second-color);
+  padding: 15px 90px;
+  border-radius: 12px;
+  font-size: 50px;
+}
+#social-links a ion-icon:hover {
+  background-color: var(--third-color);
+  color: var(--first-color);
+
+  transition: background 0.2s;
+}
+
+#social-links p,
+#social-links h2 {
+  width: 230px;
+  margin: auto;
+  text-align: left;
+}
+
+#social-links h2 {
+  color: var(--first-color);
+  font-weight: lighter;
+}
+
+#social-links p {
+  color: var(--third-color);
+  padding: 2px 0px 15px 0px;
+  font-size: 15px;
+}
